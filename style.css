@@ -1,0 +1,139 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+#header_phrase {
+    width:10%;
+    margin-left:45%;
+    margin-top:30vh;
+}
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#header_center {
+    display:flex;
+    width:100%;
+    text-align:center;
+}
+
+#header_banner_left {
+    left:5%;
+    position: absolute;
+    width:20%;
+    height:50vh;
+    border-radius:10%;
+    border:solid black 5px;
+    background-color:rgb(100, 100, 255);
+}
+
+#header_banner_right {
+    right:5%;
+    position: absolute;
+    width:20%;
+    height:50vh;
+    border-radius:10%;
+    border:solid black 5px;
+    background-color:rgb(100, 100, 255);
+}
+
+#header {
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(225, 200, 255);
+    margin-top:-8vh;
+    background-image:url("figures-teamwork-brainstorming.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    box-shadow: 0px -20vh 20vh rgb(225, 200, 255) inset;
+}
+
+#learn_more_about_perfect_button {
+    border-radius:40%;
+    display:inline-block;
+    padding:25px;
+    margin:1%;
+    background-image: linear-gradient(rgb(200, 100, 250), rgb(100, 100, 255));
+    box-shadow: 0px 0px 20px rgb(150, 100, 250);
+}
+
+#learn_more_about_perfect {
+    text-align:center;
+    margin-top:30vh;
+}
+
+#header_name {
+    text-align:center;
+    font-size:300%;
+}
+
+#tools {
+}
+
+.action {
+    height:40vh;
+    width:40vh;
+    margin-top:5vh;
+    border-radius:20%;
+    box-shadow:0px 0px 50px black;
+    background-size:5vh;
+    text-align:center;
+    transition: 0.3s;
+}
+
+.activities {
+    background-color: rgb(125, 100, 255);
+    padding:2.5vh;
+    display:flex;
+}
+
+#activities_banner {
+    height:40vh;
+    width:100%;
+    margin-top:5vh;
+    border-radius:20%;
+    box-shadow:0px 0px 50px black;
+    background-size:5vh;
+    text-align:center;
+    margin-right: 2%;
+}
+
+.action_text {
+    color:black;
+}
+
+.action_a{
+    text-decoration:none;
+    margin-right: 2%;
+}
+
+#inbetween {
+    width:100%;
+    height:20vh;
+    background-image: linear-gradient(rgb(225, 200, 255), rgb(125, 100, 255));
+}
+
+.action_description {
+    margin:10vh;
+}
+
+.action:hover {
+    box-shadow:0px 0px 10px black;
+}
+
+@keyframes action_hover {
+  0% {
+    padding:0%;
+  }
+
+  100% {
+    padding:10%;
+  }
+}
